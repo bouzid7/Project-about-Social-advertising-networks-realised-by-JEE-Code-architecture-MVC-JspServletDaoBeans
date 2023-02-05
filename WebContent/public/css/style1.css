@@ -1,0 +1,165 @@
+/* =============== comment-section ============== */
+
+.comment-section {
+	float: left;
+	width: 100%;
+	background-color: #fff;
+	padding: 20px;
+}
+.plus-ic {
+	float: left;
+	width: 100%;
+	text-align: center; 
+	margin-bottom: 20px;
+}
+.plus-ic i {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid #e7e7e7;
+	text-align: center;
+	color: #b2b2b2;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	border-radius: 100px;
+}
+
+
+[id=toggle-heart] {
+  position: absolute;
+  left: -100vw;
+}
+[id=toggle-heart]:checked + label {
+  color: #e2264d;
+  will-change: font-size;
+  animation: heart 1s cubic-bezier(0.17, 0.89, 0.32, 1.49);
+}
+
+[for=toggle-heart] {
+  align-self: center;
+  color: #aab8c2;
+  font-size: 2em;
+  cursor: pointer;
+}
+@keyframes heart {
+  0%, 15% {
+    font-size: 0;
+  }
+}
+/* =============== comment-sec ============================*/
+
+
+.comment-sec {
+	float: left;
+	width: 100%;
+}
+.comment-sec ul {
+	float: left;
+	width: 100%;
+}
+.comment-sec ul li {
+	float: left;
+	width: 100%;
+}
+.comment-sec ul ul {
+	padding-left: 50px;
+}
+.comment-list {
+	display: table;
+	padding-bottom: 30px;
+}
+.bg-img {
+	display: table-cell;
+}
+.bg-img img {
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	border-radius: 100px;
+}
+.comment {
+	display: table-cell;
+	vertical-align: top;
+	width: 100%;
+	padding-left: 10px;
+}
+.comment h3 {
+	color: #000000;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.comment img {
+	position: relative;
+	top: 2px;
+	margin-right: 5px;
+}
+.comment span {
+	color: #b2b2b2;
+	font-size: 14px;
+	display: block;
+	margin-bottom: 14px;
+}
+.comment p {
+	color: #686868;
+	font-size: 14px;
+	margin-bottom: 10px;
+	line-height: 20px;
+}
+.comment > a {
+	display: inline-block;
+	color: #b2b2b2;
+	font-size: 14px;
+	font-weight: 600;
+}
+.comment > a.active,
+.comment > a:hover {
+	color: #e44d3a;
+}
+.comment > a i {
+	font-weight: 600;
+	margin-right: 6px;
+}
+
+/* =============== post-comment ============= */
+
+.post-comment {
+	float: left;
+	width: 100%;
+}
+.cm_img {
+	float: left;
+	width: 40px;
+	margin-right: 10px;
+}
+.comment_box {
+	float: left;
+}
+.comment_box input {
+	width: 387px;
+	height: 40px;
+	border: 1px solid #e5e5e5;
+	background-color: #efefef;
+	padding-left: 10px;
+	color: #b2b2b2;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 40px;
+	resize: none;
+}
+.comment_box form button {
+	float: right;
+	color: #fff;
+	background-color: #e44d3a;
+	height: 40px;
+	padding: 0 10px;
+	text-align: center;
+	font-size: 14px;
+	border: 0;
+	margin-left: 10px;
+	cursor: pointer;
+	font-weight: 600;
+}
