@@ -1,7 +1,7 @@
 package com.networkannonce.beans;
 
 public class Annonces {
-
+// modification from bouzid branch ...
      private int idannonce;
      private String titreannonce;
      private String descriptionannonce;
