@@ -9,7 +9,7 @@ public class Annonces {
      private String etatannonce ;
      private int nombrelike;
      private String villeannonce ;
-     private int idmember ;
+     private Integer idmember ;
    
      
      //getters 
