@@ -9,8 +9,8 @@ public class Annonces {
      private String etatannonce ;
      private int nombrelike;
      private String villeannonce ;
-     private String idmember ;
-	//modif by amine_branch
+
+     private int idmember ;
    
      
      //getters 
