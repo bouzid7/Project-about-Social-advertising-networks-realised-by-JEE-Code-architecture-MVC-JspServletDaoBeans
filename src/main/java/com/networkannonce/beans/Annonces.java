@@ -10,6 +10,7 @@ public class Annonces {
      private int nombrelike;
      private String villeannonce ;
      private int idmember ;
+	//modif by amine_branch
    
      
      //getters 
