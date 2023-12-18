@@ -9,7 +9,7 @@ public class Annonces {
      private String etatannonce ;
      private int nombrelike;
      private String villeannonce ;
-     private int idmember ;
+     private String idmember ;
 	//modif by amine_branch
    
      
